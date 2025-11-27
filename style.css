@@ -1,0 +1,50 @@
+body {
+            background-color: #f2f2f2;
+            font-size: 1.3rem;
+        }
+
+        .card {
+            border-radius: 15px;
+        }
+
+        h1, h2 {
+            font-weight: bold;
+        }
+
+        .list-group-item {
+            cursor: pointer;
+            padding: 18px;
+            display: flex;
+            align-items: center;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .list-group-item:hover {
+            background-color: #f8f9fa;
+        }
+
+        .list-group-item input {
+            transform: scale(1.6);
+            margin-right: 15px;
+        }
+
+        .treino-concluido {
+            text-decoration: line-through;
+            color: #155724;
+            background-color: #d4edda;
+            font-weight: bold;
+        }
+
+        .treino-concluido::before {
+            content: "✔ ";
+            margin-right: 5px;
+        }
+
+        .progress {
+            height: 28px;
+        }
+
+        .progress-bar {
+            font-size: 1rem;
+            font-weight: bold;
+        }
